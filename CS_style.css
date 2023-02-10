@@ -1,0 +1,64 @@
+<style>
+
+html
+{
+height: 100%
+}
+
+body.default
+{
+background-color: #808080;
+}
+
+body.about
+{
+background-image: url("images/Binary-code.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1.header
+{
+background-color: #00008B;
+color: white;
+text-align: center;
+}
+
+
+ul.nav
+{
+background-color: #000000;
+overflow: hidden;
+padding: 0;
+margin: 0;
+list-style-type: none;
+}
+
+li.nav
+{
+float: left;
+}
+
+li a
+{
+color: white;
+padding: 120px 120px;
+text-align: center;
+}
+
+
+div.clearFloat
+{
+clear: both;
+
+color: white;
+}
+
+div.about
+{
+background-color: #808080;
+border: 4px;
+color: white;
+}
+
+</style>
