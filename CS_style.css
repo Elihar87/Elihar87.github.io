@@ -10,12 +10,18 @@ body.default
 background-color: #808080;
 }
 
+img.splash
+{
+float:right;
+}
+
 body.about
 {
 background-image: url("images/Binary-code.png");
 background-repeat: no-repeat;
 background-size: cover;
 }
+
 
 h1.header
 {
@@ -27,7 +33,7 @@ text-align: center;
 
 ul.nav
 {
-background-color: #000000;
+background-color: #2F4F4F;
 overflow: hidden;
 padding: 0;
 margin: 0;
@@ -46,6 +52,13 @@ padding: 120px 120px;
 text-align: center;
 }
 
+h3.course_header
+{
+background-color: #00008B;
+color: white;
+padding: 5px;
+}
+
 
 div.clearFloat
 {
@@ -57,8 +70,63 @@ color: white;
 div.about
 {
 background-color: #808080;
-border: 4px;
+border-style: solid;
+border-color:#00008B;
+border-width: 5px;
 color: white;
+text-align: center;
+width: 400px;
+height: 400px;
+margin: auto;
+}
+
+div.apply
+{
+background-color: #2F4F4F;
+color: white;
+text-align: center;
+border-style: solid;
+border-color:#00008B;
+border-width: 2px;
+width: 450px;
+height: 450px;
+margin: auto;
+}
+
+div.course_block
+{
+background-color:#2F4F4F;
+}
+
+p.course_content
+{
+color: white;
+}
+
+tr
+{
+color:white;
+}
+
+td
+{
+padding: 30px;
+color: white;
+border-style: solid;
+border-color:#00008B;
+border-width: 2px;
+}
+
+td.no_wrap
+{
+white-space: nowrap;
+}
+
+table
+{
+border-style: solid;
+border-color:#00008B;
+border-width: 2px;
 }
 
 </style>
