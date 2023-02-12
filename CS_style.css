@@ -15,6 +15,11 @@ img.splash
 float:right;
 }
 
+img.quote
+{
+float:left;
+}
+
 body.about
 {
 background-image: url("images/Binary-code.png");
@@ -38,18 +43,18 @@ overflow: hidden;
 padding: 0;
 margin: 0;
 list-style-type: none;
+text-align: center;
 }
 
 li.nav
 {
-float: left;
+display:inline;
+padding: 30px;
 }
 
 li a
 {
 color: white;
-padding: 120px 120px;
-text-align: center;
 }
 
 h3.course_header
@@ -66,6 +71,22 @@ clear: both;
 
 color: white;
 }
+
+div.quote
+{
+padding: 16px;
+background-color: #2F4F4F;
+height: 250px;
+width: 800px;
+color: white;
+}
+
+
+h2.quote
+{
+clear: left;
+}
+
 
 div.about
 {
@@ -127,6 +148,12 @@ table
 border-style: solid;
 border-color:#00008B;
 border-width: 2px;
+background-color: #2F4F4F;
+}
+
+th.quote
+{
+font-size: 30px;
 }
 
 </style>
