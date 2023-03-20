@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link rel="stylesheet" href="CS_style.css">
+<script src="java_code.js"> </script>
+<title> Puzzle Game </title>
+<meta charset="utf-8">
+</head>
+
+
+<body class="default" onload="sliceImage()">
+
+<h1 class="header"> Puzzle Game </h1>
+
+<nav>
+<ul class="nav">
+<li class="nav"> <a href="index.html"> Home </a> </li>
+<li class="nav"> <a href="index2.html"> About Us </a> </li>
+<li class="nav"> <a href="index3.html"> Courses </a> </li>
+<li class="nav"> <a href="index4.html"> Faculty/Staff </a> </li>
+<li class="nav"> <a href="index5.html"> Application </a> </li>
+<li class="nav"> <a href="index6.html"> Puzzle Game </a> </li>
+</ul>
+</nav>
+
+
+<div>
+<h1 style="color: white"> <u>Instructions:</u> Drag and drop pieces of image into the empty square to complete the image. </h1>
+
+
+<div class="grid">
+
+<div class= "puzzle_square" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+<img src="images/Flower2.jpg" class="flower" draggable="true" ondragstart="drag(event)" id="drag1">
+</div>
+
+<div class= "puzzle_square" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+<img src="images/Flower3.jpg" class="flower" draggable="true" ondragstart="drag(event)" id="drag2">
+</div>
+
+<div class= "puzzle_square" id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
+<img src="images/Flower4.jpg" class="flower" draggable="true" ondragstart="drag(event)" id="drag3">
+</div>
+
+<div class= "puzzle_square" id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">
+<img src="images/Flower5.jpg" class="flower" draggable="true" ondragstart="drag(event)" id="drag4">
+</div>
+
+<div class= "puzzle_square" id="div5" ondrop="drop(event)" ondragover="allowDrop(event)">
+<img src="images/Flower6.jpg" class="flower" draggable="true" ondragstart="drag(event)" id="drag5">
+</div>
+
+<div class= "puzzle_square" id="div6" ondrop="drop(event)" ondragover="allowDrop(event)">
+<img src="images/Flower7.jpg" class="flower" draggable="true" ondragstart="drag(event)" id="drag6">
+</div>
+
+<div class= "puzzle_square" id="div7" ondrop="drop(event)" ondragover="allowDrop(event)">
+<img src="images/Flower8.jpg" class="flower" draggable="true" ondragstart="drag(event)" id="drag7">
+</div>
+
+<div class= "puzzle_square" id="div8" ondrop="drop(event)" ondragover="allowDrop(event)">
+<img src="images/Flower9.jpg" class="flower" draggable="true" ondragstart="drag(event)" id="drag8">
+</div>
+
+<div class= "puzzle_square" id="div9" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+</div>
+  
+</div>
+
+
+<div class="center">
+
+<button class="shuffle" type="button" onclick="shuffle_puzzle()"> Shuffle </button>
+
+</div>
+
+
